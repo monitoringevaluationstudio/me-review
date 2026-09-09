@@ -2,7 +2,7 @@
 
 ## What This Repo Is
 
-Public GitHub repo for the **me-review** Claude Code plugin. Published at `monitoringevaluationstudio/me-review`. Contains 12 MEAL review skills + 12 commands. No code, no build step, pure markdown + JSON.
+Public GitHub repo for the **me-review** Claude Code plugin. Published at `monitoringevaluationstudio/me-review`. Contains 12 MEAL review skills. No separate commands/ directory: each skill carries its own input handling, criteria and output template. No code, no build step, pure markdown + JSON.
 
 ## Git Identity (CRITICAL)
 
@@ -23,7 +23,7 @@ This repo belongs to the **monitoringevaluationstudio** GitHub account, NOT Logi
 
 ## What to Commit
 
-**Include:** plugin.json, LICENSE, README.md, skills/, commands/
+**Include:** .claude-plugin/plugin.json, .claude-plugin/marketplace.json, LICENSE, README.md, skills/
 
 **Never commit:** test files, session summaries, dev docs (EXECUTION-CHECKLIST, INTEGRATION-STATUS, TEST-GUIDE, TEST-RESULTS, test-inputs/, SESSION-SUMMARY-*, etc.)
 
@@ -41,7 +41,7 @@ and loads at runtime." Verified against `claude plugin validate` on v2.1.251.
 {
   "name": "me-review",
   "displayName": "M&E Review",
-  "version": "1.3.0",
+  "version": "1.4.0",
   "description": "...",
   "author": { "name": "MEStudio", "email": "...", "url": "..." },
   "homepage": "https://www.monitoringevaluationstudio.com/plugins",
@@ -57,9 +57,33 @@ manifest, and without it a listing carries no link back to the site.
 Bump `version` on every release. Users only receive updates when it changes.
 
 Run `claude plugin validate .` before any push. Warnings do not fail validation; the
-community-marketplace review pipeline runs the same check. Two warnings are expected and
-accepted: none currently, once `version` is set, apart from the `CLAUDE.md at the plugin
-root` notice, which is this file and is intentional.
+community-marketplace review pipeline runs the same check.
+
+## Marketplace Manifest
+
+`.claude-plugin/marketplace.json` makes this repository its own single-plugin marketplace.
+That is what lets users install with:
+
+```
+/plugin marketplace add monitoringevaluationstudio/me-review
+/plugin install me-review@me-review
+```
+
+Without it there is no install path at all, because `/plugin marketplace add` reads that
+file. The README carried a non-existent `/install-plugin` command from March 2026 until
+2026-09-09, so nobody could install the plugin during that period.
+
+Keep the `version` in `marketplace.json` in step with `plugin.json` on every release.
+
+## No commands/ Directory
+
+Each review is one skill under `skills/<name>/SKILL.md`, carrying its own input handling,
+review criteria, output template and output rules. A parallel `commands/` directory existed
+until 2026-09-09 and was removed: every command shared a name with a skill, which made the
+namespace ambiguous, and the current docs say to use `skills/` for new plugins. Slash
+invocation is unchanged, still `/me-review:<name>`.
+
+Do not reintroduce `commands/`.
 
 ## History Policy
 

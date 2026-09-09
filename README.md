@@ -1,6 +1,6 @@
 # M&E Review
 
-[![Version](https://img.shields.io/badge/version-1.3.0-0B4F6C)](https://github.com/monitoringevaluationstudio/me-review/releases)
+[![Version](https://img.shields.io/badge/version-1.4.0-0B4F6C)](https://github.com/monitoringevaluationstudio/me-review/releases)
 [![License](https://img.shields.io/badge/license-MIT-3AA6A0)](LICENSE)
 [![Claude Code](https://img.shields.io/badge/Claude%20Code-compatible-D97706)](https://code.claude.com/docs/en/plugins)
 
@@ -9,6 +9,8 @@ Professional monitoring, evaluation, accountability and learning (MEAL) skills f
 Paste a logframe, theory of change, M&E plan, survey, evaluation TOR, sampling plan, baseline report, progress report, proposal, or indicator list and get a structured quality review in seconds.
 
 Built by [M&E Studio](https://www.monitoringevaluationstudio.com/plugins).
+
+**New in 1.4.0:** the plugin now ships as its own marketplace, so installation is two commands (see below). Each review is a single self-contained skill.
 
 **New in 1.3.0:** six additional reviews covering theories of change, proposal M&E sections, sampling plans, data quality assessments, baseline reports and progress reports. Twelve reviews in total.
 
@@ -33,20 +35,18 @@ Each skill produces a scored review with section-by-section ratings (PASS / PART
 
 ## Installation
 
-### Claude Desktop (Mac and Windows)
+Two commands. This repository is its own plugin marketplace, so you add it once and then install from it.
 
-1. Open Claude Desktop
-2. Go to **Settings > Extensions**
-3. Click **Add from GitHub** and enter: `monitoringevaluationstudio/me-review`
-4. Click **Install**
-
-That is it. No downloads, no coding, no setup.
-
-### Claude Code (CLI)
-
-```bash
-/install-plugin monitoringevaluationstudio/me-review
 ```
+/plugin marketplace add monitoringevaluationstudio/me-review
+/plugin install me-review@me-review
+```
+
+Run these inside Claude Code. If the install summary says `Run /reload-plugins to activate.`, run that too.
+
+To check it worked, type `/me-review:` and you should see all twelve reviews listed.
+
+Claude Desktop users can install the same plugin through the plugin browser in **Settings**.
 
 ## How to Use
 
