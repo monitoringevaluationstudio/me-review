@@ -33,9 +33,9 @@ If no report is provided, prompt the user to supply one. If the user describes a
 
 Identify the document type before reviewing (see skill methodology for classification table). State the document type at the top of the review and calibrate expectations accordingly.
 
-For findings briefs or rapid assessments, note that methodology may be brief intentionally — focus on actionability and evidence anchoring rather than penalizing for lighter methodology coverage.
+For findings briefs or rapid assessments, note that methodology may be brief intentionally. Focus on actionability and evidence anchoring rather than penalizing for lighter methodology coverage.
 
-For mid-term evaluations, note if findings are labeled "preliminary" or "emerging" — adjust expectations accordingly.
+For mid-term evaluations, note if findings are labeled "preliminary" or "emerging". Adjust expectations accordingly.
 
 For data summaries, assess as source material, not findings narrative.
 
@@ -43,12 +43,12 @@ For data summaries, assess as source material, not findings narrative.
 
 Review in this sequence, scoring each section PASS / PARTIAL / FAIL:
 
-1. **Structural Completeness** — Executive summary, methodology, findings by question, evidence, limitations, conclusions, recommendations all present?
-2. **Finding Quality** — Data-backed, logical, significant, actionable?
-3. **Evidence Anchoring** — Sources cited? Sufficient detail? Triangulation present?
-4. **Limitation Awareness** — Scope stated? Design limitations disclosed? Implications discussed?
-5. **Recommendation Specificity** — Specific actions? Prioritized? Linked to findings?
-6. **Tone & Accessibility** — Appropriate for audience? Balanced? Well-organized?
+1. **Structural Completeness**: Executive summary, methodology, findings by question, evidence, limitations, conclusions, recommendations all present?
+2. **Finding Quality**: Data-backed, logical, significant, actionable?
+3. **Evidence Anchoring**: Sources cited? Sufficient detail? Triangulation present?
+4. **Limitation Awareness**: Scope stated? Design limitations disclosed? Implications discussed?
+5. **Recommendation Specificity**: Specific actions? Prioritized? Linked to findings?
+6. **Tone & Accessibility**: Appropriate for audience? Balanced? Well-organized?
 
 ### Step 4: Classify Issues by Severity
 
@@ -98,13 +98,13 @@ When recommending changes, provide specific language the user can insert, not ju
 - [What the report does well]
 
 ### Critical Issues (Must Address)
-1. [Issue — why it matters — specific fix]
+1. [Issue, why it matters, specific fix]
 
 ### Important Issues (Should Address)
-1. [Issue — why it matters — specific fix]
+1. [Issue, why it matters, specific fix]
 
 ### Minor Improvements
-1. [Improvement — rationale]
+1. [Improvement: rationale]
 
 ### Detailed Findings
 [Section-by-section analysis with specific references to report text]
@@ -112,11 +112,11 @@ When recommending changes, provide specific language the user can insert, not ju
 
 ## Notes
 
-- A findings report is the record of what the evaluation discovered, not a marketing document. Honest findings — even negative ones — are more valuable than polished findings.
+- A findings report is the record of what the evaluation discovered, not a marketing document. Honest findings, even negative ones, are more valuable than polished findings.
 - Calibrate expectations to the document type. A rapid assessment brief is intentionally shorter than a full evaluation report.
 - Consider context: a $20K evaluation of a small program has different reporting expectations than a $500K multi-country impact evaluation.
 - If the report is generally strong, say so. Not every report needs major revision.
 - **Recommendations should be actionable.** If recommendations read like policy papers or wishful thinking, flag that.
-- **If the evaluation has limitations, they should be disclosed.** Hiding limitations — or putting them in the appendix in small print — breaks stakeholder trust.
+- **If the evaluation has limitations, they should be disclosed.** Hiding limitations, or putting them in the appendix in small print, breaks stakeholder trust.
 - For program design review beyond the evaluation scope, use `/me-review:logframe-review`.
 - For TOR review or commissioning brief feedback, use `/me-review:tor-review`.

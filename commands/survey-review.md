@@ -48,12 +48,12 @@ Before scoring, identify the instrument type (Household Survey, Self-Administere
 
 Review in this sequence, scoring each section PASS / PARTIAL / FAIL:
 
-1. **Purpose and Logframe Alignment** — Purpose stated? Questions map to indicators or evaluation questions? Survey scope proportionate?
-2. **Instrument Structure and Flow** — Standard components present (intro, consent, demographics, content, wrap-up)? Skip logic marked? Topics sequenced logically?
-3. **Question Quality** — Neutral and non-leading? Single-concept per question? Response formats balanced and exhaustive? Recall periods defined?
-4. **Sampling and Coverage** — Population defined? Sampling method stated? Sample size with rationale? Disaggregation dimensions collected?
-5. **Ethical Compliance** — Informed consent present? Voluntary participation stated? Confidentiality addressed? Sensitive topic safeguards present?
-6. **Practical Feasibility** — Instrument length appropriate? Enumerator instructions present? Pre-testing noted or planned?
+1. **Purpose and Logframe Alignment**: Purpose stated? Questions map to indicators or evaluation questions? Survey scope proportionate?
+2. **Instrument Structure and Flow**: Standard components present (intro, consent, demographics, content, wrap-up)? Skip logic marked? Topics sequenced logically?
+3. **Question Quality**: Neutral and non-leading? Single-concept per question? Response formats balanced and exhaustive? Recall periods defined?
+4. **Sampling and Coverage**: Population defined? Sampling method stated? Sample size with rationale? Disaggregation dimensions collected?
+5. **Ethical Compliance**: Informed consent present? Voluntary participation stated? Confidentiality addressed? Sensitive topic safeguards present?
+6. **Practical Feasibility**: Instrument length appropriate? Enumerator instructions present? Pre-testing noted or planned?
 
 ### Step 5: Calculate Overall Rating
 
@@ -88,41 +88,41 @@ Review in this sequence, scoring each section PASS / PARTIAL / FAIL:
 
 [3-5 highest-priority issues, ordered by severity. Lead with the specific finding, then the recommendation. Cite the question number where applicable.]
 
-1. **[Section Name — Question #X if applicable]:** [Specific finding] — [Specific recommendation]
+1. **[Section Name, Question #X if applicable]:** [Specific finding], [Specific recommendation]
 2. ...
 
 ---
 
 ## Detailed Findings
 
-### 1. Purpose and Logframe Alignment — [PASS / PARTIAL / FAIL]
+### 1. Purpose and Logframe Alignment: [PASS / PARTIAL / FAIL]
 [Findings]
 
-### 2. Instrument Structure and Flow — [PASS / PARTIAL / FAIL]
-[Findings — note which standard components are present/missing]
+### 2. Instrument Structure and Flow: [PASS / PARTIAL / FAIL]
+[Findings: note which standard components are present/missing]
 
-### 3. Question Quality — [PASS / PARTIAL / FAIL]
-[Findings — list specific problematic questions by number with the issue type (leading, double-barreled, undefined recall, etc.)]
+### 3. Question Quality: [PASS / PARTIAL / FAIL]
+[Findings: list specific problematic questions by number with the issue type (leading, double-barreled, undefined recall, etc.)]
 
-### 4. Sampling and Coverage — [PASS / PARTIAL / FAIL]
-[Findings — note "qualitative purposive sampling" standards apply for KII/FGD]
+### 4. Sampling and Coverage: [PASS / PARTIAL / FAIL]
+[Findings: note "qualitative purposive sampling" standards apply for KII/FGD]
 
-### 5. Ethical Compliance — [PASS / PARTIAL / FAIL]
-[Findings — flag any elevated-risk topics that require additional safeguards]
+### 5. Ethical Compliance: [PASS / PARTIAL / FAIL]
+[Findings: flag any elevated-risk topics that require additional safeguards]
 
-### 6. Practical Feasibility — [PASS / PARTIAL / FAIL]
-[Findings — estimate instrument length if possible]
+### 6. Practical Feasibility: [PASS / PARTIAL / FAIL]
+[Findings: estimate instrument length if possible]
 
 ---
 
 ## Design Flaw Flags
-[List any common design flaws detected, with the relevant section reference. E.g., "Topic bloat (Section 1) — 15 questions not linked to any stated indicator."]
+[List any common design flaws detected, with the relevant section reference. E.g., "Topic bloat (Section 1): 15 questions not linked to any stated indicator."]
 ```
 
 ## Output Rules
 
 - For question quality issues, cite the specific question number and quote the problematic text
 - Flag ethical concerns first in Priority Recommendations if a FAIL is present
-- For KII/FGD guides, do not penalize for absence of structured response options — open-ended is the standard
+- For KII/FGD guides, do not penalize for absence of structured response options. Open-ended is the standard
 - Do not suggest shortening an instrument without identifying which questions are lower priority
 - When a question appears to be a validated standard indicator, note it should not be reworded

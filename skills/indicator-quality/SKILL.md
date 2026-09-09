@@ -13,7 +13,7 @@ You are an experienced M&E specialist assessing the quality of performance indic
 
 Score each indicator on five dimensions:
 
-### S — Specific (1-5)
+### S, Specific (1-5)
 
 Does it clearly state what is being measured, for whom, where, and to what standard?
 - 5: States quantity, quality, target population, and location
@@ -24,18 +24,18 @@ Does it clearly state what is being measured, for whom, where, and to what stand
 
 > **Rule:** SMART indicators must be Specific (quantity, quality, location, target population), Measurable (promotes accurate assessment), Achievable (attainable given resources), Relevant (linked to results), Time-bound (specifying timeframe).
 
-### M — Measurable (1-5)
+### M, Measurable (1-5)
 
 Can progress be objectively and accurately assessed?
 - 5: Clear data source, collection method, and analysis plan documented
 - 4: Inherently measurable concept with credible data source identified
 - 3: Measurable concept but data source unclear or unverified
-- 2: Difficult to measure consistently — subjective or ambiguous
+- 2: Difficult to measure consistently, subjective or ambiguous
 - 1: No feasible way to measure this consistently
 
 > **Rule:** Describe the process for compiling and analyzing the data to gauge whether the indicator has been met or not.
 
-### A — Achievable (1-5)
+### A, Achievable (1-5)
 
 Is the target realistic given resources, timeframe, and context?
 - 5: Target based on evidence (baseline, comparable programs, statistical rationale)
@@ -44,9 +44,9 @@ Is the target realistic given resources, timeframe, and context?
 - 2: Target appears arbitrary or optimistic
 - 1: Target is clearly unrealistic or no target set
 
-If no target is provided, mark as "N/A — no target provided."
+If no target is provided, mark as "N/A, no target provided."
 
-### R — Relevant (1-5)
+### R, Relevant (1-5)
 
 Does this indicator directly measure the result it's attached to?
 - 5: Directly measures the stated result
@@ -57,7 +57,7 @@ Does this indicator directly measure the result it's attached to?
 
 > **Rule:** Indicators must be unambiguous about what is being measured and what data is being collected.
 
-### T — Time-bound (1-5)
+### T, Time-bound (1-5)
 
 Is there a clear timeframe for when the target should be reached?
 - 5: Specific date or reporting period with milestones
@@ -66,7 +66,7 @@ Is there a clear timeframe for when the target should be reached?
 - 2: Implied but not stated timeframe
 - 1: No timeframe mentioned
 
-If no timeframe is provided, mark as "N/A — no timeframe provided."
+If no timeframe is provided, mark as "N/A, no timeframe provided."
 
 **Composite SMART Score:** Average of scored dimensions only (exclude N/A dimensions). Flag indicators below 3.0 as needing revision. A single dimension at 1 is also a flag regardless of composite score.
 
@@ -76,7 +76,7 @@ If no timeframe is provided, mark as "N/A — no timeframe provided."
 - **Mixed:** Some indicators above 3.0, some below, or systemic gaps in one area (e.g., all lack disaggregation)
 - **Needs Work:** Any indicator below 3.0 composite, OR more than 2 critical formulation issues, OR a majority with missing data sources or disaggregation
 
-When fewer than 5 SMART dimensions are scored (due to N/A), present composite as provisional: e.g., "2.7/5.0 (3 dimensions scored)" — note the rating may shift once full context is provided.
+When fewer than 5 SMART dimensions are scored (due to N/A), present composite as provisional: e.g., "2.7/5.0 (3 dimensions scored)". Note the rating may shift once full context is provided.
 
 ## Result-Level Classification
 
@@ -120,7 +120,7 @@ For each indicator, data sources should be:
 
 ## Indicator Formulation Rules
 
-**Indicator statement vs. indicator plan:** An indicator statement ("% of beneficiaries reporting improved food security") is not the same as a complete indicator plan. Targets, baselines, timeframes, and data sources are typically held in separate columns (indicator reference sheet, M&E plan, logframe). When the user provides only the statement: score Specific and Relevant against the statement; score Measurable only if a data source is implied; mark Achievable and Time-bound as N/A. A clean "% of [population] [measurable concept]" statement is a standard format — do NOT score it as low-quality simply because targets and timeframes are not embedded in the statement text.
+**Indicator statement vs. indicator plan:** An indicator statement ("% of beneficiaries reporting improved food security") is not the same as a complete indicator plan. Targets, baselines, timeframes, and data sources are typically held in separate columns (indicator reference sheet, M&E plan, logframe). When the user provides only the statement: score Specific and Relevant against the statement; score Measurable only if a data source is implied; mark Achievable and Time-bound as N/A. A clean "% of [population] [measurable concept]" statement is a standard format. Do NOT score it as low-quality simply because targets and timeframes are not embedded in the statement text.
 
 Well-formulated indicators follow this pattern:
 1. Identify what is measured

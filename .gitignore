@@ -1,0 +1,15 @@
+# Development and test material. Never ships with the plugin.
+test-inputs/
+test-results/
+EXECUTION-CHECKLIST.md
+INTEGRATION-STATUS.md
+SESSION-SUMMARY-*.md
+TEST-GUIDE.md
+TEST-QUICKSTART.md
+TEST-RESULTS.md
+
+# Tooling artifacts
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db

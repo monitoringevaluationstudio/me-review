@@ -43,7 +43,7 @@ Before reviewing, identify the document type. Different documents warrant differ
 - **Needs Revision:** 1 FAIL, or 3+ PARTIAL
 - **Major Issues:** 2+ FAIL
 
-**Critical weighting:** A FAIL in Evidence Anchoring (Section 3) or Limitation Awareness (Section 4) automatically triggers **Major Issues** regardless of other section scores. These are foundational — unsupported findings or hidden limitations cannot be offset by strong recommendations.
+**Critical weighting:** A FAIL in Evidence Anchoring (Section 3) or Limitation Awareness (Section 4) automatically triggers **Major Issues** regardless of other section scores. These are foundational. Unsupported findings or hidden limitations cannot be offset by strong recommendations.
 
 ## 6-Section Review Criteria
 
@@ -140,9 +140,9 @@ A quality evaluation report should include:
 - Any deviations from evaluation plan noted and their implications
 
 **Implications discussed:**
-- Limitations section does not just list constraints — it explains what limitations mean for finding credibility
+- Limitations section does not just list constraints. It explains what limitations mean for finding credibility
 - Reader understands where to trust findings and where to treat with caution
-- Limitations are not hidden in appendix — their importance to interpretation is clear
+- Limitations are not hidden in appendix. Their importance to interpretation is clear
 
 > **Rule:** Identify and disclose limitations of the evaluation that affect findings validity, credibility, and utility. This builds trust; hiding limitations erodes it.
 
@@ -185,7 +185,7 @@ A quality evaluation report should include:
 
 **Accessibility:**
 - Key findings surfaced in executive summary (readers should not need to read 50 pages to understand results)
-- Findings organized intuitively (by question, outcome, or geography as appropriate — not random order)
+- Findings organized intuitively (by question, outcome, or geography as appropriate, not random order)
 - Visual elements used where helpful (tables for comparison, charts for trends)
 - Appendices provided for technical detail without cluttering main narrative
 

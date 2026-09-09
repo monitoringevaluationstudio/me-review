@@ -48,14 +48,14 @@ Before scoring, identify the document type (Full M&E Plan, PMP, Indicator Framew
 
 Review in this sequence, scoring each section PASS / PARTIAL / FAIL:
 
-1. **Structural Completeness** — All standard components present? Covers full M&E cycle?
-2. **Indicator Framework Quality** — Indicators at all result levels? Each with source, baseline, target, disaggregation? For deep per-indicator scoring, refer to `/me-review:indicator-quality`
-3. **Data Collection Plan** — Methods per indicator? Tools named? Frequency and sampling defined? Responsibility assigned?
-4. **Roles, Responsibilities, and Capacity** — Responsibilities distributed beyond M&E staff? Supervision assigned? Capacity addressed?
-5. **Reporting Framework** — Frequency, formats, and audiences defined? Learning and feedback loops included?
-6. **Quality Assurance** — DQA protocol present? Verification steps described? Ongoing, not one-time?
-7. **Evaluation Planning** — Evaluation type and questions stated? Linked to decision points? Budget indicated?
-8. **Internal Consistency** — Do indicators, methods, roles, and reporting frequency align? Any contradictions?
+1. **Structural Completeness**: All standard components present? Covers full M&E cycle?
+2. **Indicator Framework Quality**: Indicators at all result levels? Each with source, baseline, target, disaggregation? For deep per-indicator scoring, refer to `/me-review:indicator-quality`
+3. **Data Collection Plan**: Methods per indicator? Tools named? Frequency and sampling defined? Responsibility assigned?
+4. **Roles, Responsibilities, and Capacity**: Responsibilities distributed beyond M&E staff? Supervision assigned? Capacity addressed?
+5. **Reporting Framework**: Frequency, formats, and audiences defined? Learning and feedback loops included?
+6. **Quality Assurance**: DQA protocol present? Verification steps described? Ongoing, not one-time?
+7. **Evaluation Planning**: Evaluation type and questions stated? Linked to decision points? Budget indicated?
+8. **Internal Consistency**: Do indicators, methods, roles, and reporting frequency align? Any contradictions?
 
 ### Step 5: Calculate Overall Rating
 
@@ -92,35 +92,35 @@ Review in this sequence, scoring each section PASS / PARTIAL / FAIL:
 
 [3-5 highest-priority issues, ordered by severity. Lead with the specific finding, then the recommendation. No generic advice.]
 
-1. **[Section Name]:** [Specific finding] — [Specific recommendation]
+1. **[Section Name]:** [Specific finding], [Specific recommendation]
 2. ...
 
 ---
 
 ## Detailed Findings
 
-### 1. Structural Completeness — [PASS / PARTIAL / FAIL]
+### 1. Structural Completeness: [PASS / PARTIAL / FAIL]
 [Findings]
 
-### 2. Indicator Framework Quality — [PASS / PARTIAL / FAIL]
-[Findings — note if full per-indicator assessment is needed via `/me-review:indicator-quality`]
+### 2. Indicator Framework Quality: [PASS / PARTIAL / FAIL]
+[Findings: note if full per-indicator assessment is needed via `/me-review:indicator-quality`]
 
-### 3. Data Collection Plan — [PASS / PARTIAL / FAIL]
+### 3. Data Collection Plan: [PASS / PARTIAL / FAIL]
 [Findings]
 
-### 4. Roles, Responsibilities & Capacity — [PASS / PARTIAL / FAIL]
+### 4. Roles, Responsibilities & Capacity: [PASS / PARTIAL / FAIL]
 [Findings]
 
-### 5. Reporting Framework — [PASS / PARTIAL / FAIL]
+### 5. Reporting Framework: [PASS / PARTIAL / FAIL]
 [Findings]
 
-### 6. Quality Assurance — [PASS / PARTIAL / FAIL]
+### 6. Quality Assurance: [PASS / PARTIAL / FAIL]
 [Findings]
 
-### 7. Evaluation Planning — [PASS / PARTIAL / FAIL]
-[Findings — note "Out of scope for this document type" if applicable]
+### 7. Evaluation Planning: [PASS / PARTIAL / FAIL]
+[Findings: note "Out of scope for this document type" if applicable]
 
-### 8. Internal Consistency — [PASS / PARTIAL / FAIL]
+### 8. Internal Consistency: [PASS / PARTIAL / FAIL]
 [List any cross-section contradictions found]
 
 ---
@@ -132,7 +132,7 @@ Review in this sequence, scoring each section PASS / PARTIAL / FAIL:
 ## Output Rules
 
 - Lead each finding with the specific gap or issue, not a generic category label
-- Cite MEAL rules where they directly support a finding
+- State the standard or good-practice principle a finding rests on, in plain language
 - For PARTIAL scores, state exactly what is present and what is missing
 - For narrative/incomplete inputs, distinguish between "not present" and "not confirmed present"
 - Do not recommend using `/me-review:indicator-quality` more than once (Section 2 is sufficient)

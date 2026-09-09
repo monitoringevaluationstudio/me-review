@@ -19,10 +19,10 @@ Before reviewing, identify the document type. Different documents warrant differ
 | **Commissioning Brief** | Purpose, scope, questions, rough timeline/budget | Note sections that need expansion; assess what IS present rather than penalizing what a brief intentionally omits |
 | **Scope of Work (SOW)** | Similar to TOR but may be more prescriptive | Apply full review; note if overspecification limits evaluator flexibility |
 | **RFP/Request for Proposals** | TOR embedded in procurement document | Extract the TOR sections and review those; skip procurement-specific content |
-| **Draft/Concept Note** | Partial — purpose and questions only | Focus on evaluation question quality and scope feasibility; flag what needs to be developed |
+| **Draft/Concept Note** | Partial. Purpose and questions only | Focus on evaluation question quality and scope feasibility; flag what needs to be developed |
 | **Template/Unfilled** | Structure only, placeholder text | Assess the template structure: Are the right sections included? Are the prompts helpful? Flag missing sections |
 | **Partially Filled** | Mix of real content and placeholders | Review only filled sections. Note unfilled sections need completion but do not score as FAIL |
-| **Narrative Description** | Depends on detail provided | User describes a TOR rather than pasting it. Treat as Full TOR if sufficient detail. For silent sections, flag as "not confirmed present" rather than "missing" — the actual document may contain it |
+| **Narrative Description** | Depends on detail provided | User describes a TOR rather than pasting it. Treat as Full TOR if sufficient detail. For silent sections, flag as "not confirmed present" rather than "missing". The actual document may contain it |
 
 ## Issue Severity Framework
 
@@ -167,10 +167,10 @@ Check that the TOR aligns with recognized evaluation standards:
 ### 10. Internal Consistency
 
 Cross-check alignment between sections:
-- Scope vs. Budget — achievable within stated budget?
-- Questions vs. Methodology — can proposed methods answer the questions?
-- Timeline vs. Deliverables — enough time for quality production?
-- Team vs. Methodology — team has expertise for proposed approach?
-- Ethics vs. Scope — ethical provisions proportionate to populations and data involved?
+- Scope vs. Budget: achievable within stated budget?
+- Questions vs. Methodology: can proposed methods answer the questions?
+- Timeline vs. Deliverables: enough time for quality production?
+- Team vs. Methodology: team has expertise for proposed approach?
+- Ethics vs. Scope: ethical provisions proportionate to populations and data involved?
 
-Flag contradictions between sections. When a single section contains an internal contradiction (e.g., "baseline comparison" mentioned in scope but no baseline referenced in practical readiness), flag as a Critical issue if it affects feasibility, or Important if it creates ambiguity. Reference both conflicting statements explicitly. If reviewing a narrative description rather than the full document, note the contradiction but frame as "apparent contradiction — verify in the actual document."
+Flag contradictions between sections. When a single section contains an internal contradiction (e.g., "baseline comparison" mentioned in scope but no baseline referenced in practical readiness), flag as a Critical issue if it affects feasibility, or Important if it creates ambiguity. Reference both conflicting statements explicitly. If reviewing a narrative description rather than the full document, note the contradiction but frame as "apparent contradiction. Verify in the actual document."

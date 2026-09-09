@@ -24,7 +24,7 @@ Accept indicators in any of these formats:
 - **CSV or spreadsheet data:** Parse columns (common headers: Indicator, Target, Actual, Baseline, Data Source, Frequency, Disaggregation)
 - **Logframe extract:** Extract indicators from the logframe and assess them, referencing the result level they measure
 - **Indicator reference sheet:** Full IRS with metadata
-- **Description:** User describes what they want to measure — help develop quality indicators
+- **Description:** User describes what they want to measure. Help develop quality indicators
 
 If invoked with `$ARGUMENTS`, treat that as the indicator content to assess.
 
@@ -34,15 +34,15 @@ If no indicators are provided, prompt the user to supply them.
 
 Before assessing, verify the input actually contains indicators. Users sometimes provide:
 
-- **Templates or checklists about indicators** — These are meta-documents, not indicators. Inform the user and offer to assess any actual indicators embedded within, or help them develop indicators.
-- **Evaluation questions** — Redirect to `/me-review:tor-review`.
-- **Activity descriptions** — "Conduct 5 trainings" is an activity, not an indicator. Help the user formulate indicators that measure the activity's result.
+- **Templates or checklists about indicators**: These are meta-documents, not indicators. Inform the user and offer to assess any actual indicators embedded within, or help them develop indicators.
+- **Evaluation questions**: Redirect to `/me-review:tor-review`.
+- **Activity descriptions**: "Conduct 5 trainings" is an activity, not an indicator. Help the user formulate indicators that measure the activity's result.
 
 ### Step 3: Parse Indicators
 
 Extract each indicator and identify:
 - The indicator statement
-- Which result level it measures (output, outcome, impact) — infer from context if not stated
+- Which result level it measures (output, outcome, impact). Infer from context if not stated
 - Any existing targets, baselines, or data sources
 - Whether it's quantitative or qualitative
 
@@ -52,11 +52,11 @@ Flag result-level mismatches (e.g., an activity count labeled as an outcome indi
 
 For each indicator, apply these checks in sequence:
 
-1. **SMART Score** — Score each of the 5 dimensions (1-5 scale) using the anchor scales from the skill methodology. Calculate composite score (average of scored dimensions, excluding N/A).
-2. **Disaggregation Check** — Are minimum dimensions specified (sex, age, geography)? Flag as a cross-cutting finding if no disaggregation is mentioned anywhere.
-3. **Data Source Validation** — Is the data source named, accessible, and consistent? Baseline planned?
-4. **Formulation Check** — Check for double-barreled, process-as-outcome, undefined terms, missing units, unclear denominators.
-5. **Standard Indicator Check** — Note if validated standard indicators exist for the sector. For recognized standard indicators (WHO, SDG, Global Fund, Sphere), do not recommend rewording — assess usage and compliance instead.
+1. **SMART Score**: Score each of the 5 dimensions (1-5 scale) using the anchor scales from the skill methodology. Calculate composite score (average of scored dimensions, excluding N/A).
+2. **Disaggregation Check**: Are minimum dimensions specified (sex, age, geography)? Flag as a cross-cutting finding if no disaggregation is mentioned anywhere.
+3. **Data Source Validation**: Is the data source named, accessible, and consistent? Baseline planned?
+4. **Formulation Check**: Check for double-barreled, process-as-outcome, undefined terms, missing units, unclear denominators.
+5. **Standard Indicator Check**: Note if validated standard indicators exist for the sector. For recognized standard indicators (WHO, SDG, Global Fund, Sphere), do not recommend rewording. Assess usage and compliance instead.
 
 ### Step 5: Assess Set Coverage (for 5+ indicators)
 
@@ -75,7 +75,7 @@ Users often provide indicators without full context:
 
 - **Indicators only (no targets/baselines):** Score Specific, Relevant, and formulation quality. Mark Achievable and Time-bound as N/A. Do NOT penalize for missing context that wasn't provided.
 - **No disaggregation mentioned:** Flag once as cross-cutting finding, don't repeat per indicator.
-- **No data sources provided:** Note as a gap to address — don't score every indicator as failing.
+- **No data sources provided:** Note as a gap to address. Don't score every indicator as failing.
 - **Sector context inference:** If the user doesn't state the sector but indicators suggest one (e.g., "ANC visits" = health), note the inferred sector. Helps calibrate standard indicator awareness and disaggregation expectations.
 
 ### Standard Donor Indicators
@@ -83,7 +83,7 @@ Users often provide indicators without full context:
 Some indicators are pre-defined by donors with fixed definitions. If you recognize standard indicators:
 - Assess whether they are being used correctly (right result level, right target population)
 - Check that disaggregation matches donor requirements
-- Do NOT recommend rewording the indicator statement itself — flag it as a standard indicator
+- Do NOT recommend rewording the indicator statement itself. Flag it as a standard indicator
 
 ## Output Format
 
@@ -101,20 +101,20 @@ Some indicators are pre-defined by donors with fixed definitions. If you recogni
 | 1 | [name] | [X.X/5.0] | [Y/N/Not provided] | [Y/N/Not provided] | [key issue] |
 
 ### Cross-Cutting Findings
-- [Patterns across multiple indicators — group common issues]
+- [Patterns across multiple indicators: group common issues]
 - [Systemic gaps in measurement approach]
 
 ### Detailed Assessment (top 5-6 issues)
 
 #### Indicator [N]: [statement]
 - **Result Level:** [Output/Outcome/Impact]
-- **Strengths:** [what this indicator does well — required for any indicator scoring 4.0+ on any dimension; include even for weak indicators if one dimension is solid]
+- **Strengths:** [what this indicator does well: required for any indicator scoring 4.0+ on any dimension; include even for weak indicators if one dimension is solid]
 - **SMART Scores:**
-  - S: [X/5] — [one-line rationale]
-  - M: [X/5] — [one-line rationale]
-  - A: [X/5 or N/A] — [one-line rationale or "no target provided"]
-  - R: [X/5] — [one-line rationale]
-  - T: [X/5 or N/A] — [one-line rationale or "no timeframe provided"]
+  - S: [X/5], [one-line rationale]
+  - M: [X/5], [one-line rationale]
+  - A: [X/5 or N/A], [one-line rationale or "no target provided"]
+  - R: [X/5], [one-line rationale]
+  - T: [X/5 or N/A], [one-line rationale or "no timeframe provided"]
   - **Composite: [X.X/5.0]** ([N] dimensions scored)
 - **Issues:** [specific problems found]
 - **Recommended Revision:** [improved indicator statement]
@@ -127,9 +127,9 @@ Some indicators are pre-defined by donors with fixed definitions. If you recogni
 
 ## Notes
 
-- Score based on what is provided. An indicator without a target in a CSV is not necessarily bad — the target may exist in a separate document.
+- Score based on what is provided. An indicator without a target in a CSV is not necessarily bad. The target may exist in a separate document.
 - When suggesting revisions, keep them practical. A perfect indicator that can't be measured is worse than a good-enough one that can.
 - Distinguish between formulation issues (fixable with rewording) and measurement feasibility issues (require budget/capacity).
-- If no baseline exists, recommend establishing one — don't just flag it as a failure.
+- If no baseline exists, recommend establishing one. Don't just flag it as a failure.
 - Respect context: disaggregation by ethnicity may be inappropriate or dangerous in some settings.
 - For deep logframe structural review beyond just indicators, use `/me-review:logframe-review`.

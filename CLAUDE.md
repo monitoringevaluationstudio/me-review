@@ -2,7 +2,7 @@
 
 ## What This Repo Is
 
-Public GitHub repo for the **me-review** Claude Code plugin. Published at `monitoringevaluationstudio/me-review`. Contains 6 MEAL review skills + 6 commands. No code, no build step, pure markdown + JSON.
+Public GitHub repo for the **me-review** Claude Code plugin. Published at `monitoringevaluationstudio/me-review`. Contains 12 MEAL review skills + 12 commands. No code, no build step, pure markdown + JSON.
 
 ## Git Identity (CRITICAL)
 
@@ -29,20 +29,37 @@ This repo belongs to the **monitoringevaluationstudio** GitHub account, NOT Logi
 
 ## Plugin.json Schema
 
-Only three fields allowed. Unknown fields break skill registration silently.
+**Corrected 2026-09-09.** This section previously said only three fields were allowed and
+that unknown fields "break skill registration silently." That was wrong. The live spec at
+`code.claude.com/docs/en/plugins-reference` states: "Claude Code ignores top-level fields it
+does not recognize... A plugin with only unrecognized-field warnings still passes validation
+and loads at runtime." Verified against `claude plugin validate` on v2.1.251.
+
+`name` is the only required field. Everything below is optional and supported:
 
 ```json
 {
   "name": "me-review",
+  "displayName": "M&E Review",
+  "version": "1.3.0",
   "description": "...",
-  "author": {
-    "name": "MEStudio",
-    "email": "Ben@monitoringevaluationstudio.com"
-  }
+  "author": { "name": "MEStudio", "email": "...", "url": "..." },
+  "homepage": "https://www.monitoringevaluationstudio.com/plugins",
+  "repository": "https://github.com/monitoringevaluationstudio/me-review",
+  "license": "MIT",
+  "keywords": ["monitoring-evaluation", "meal", "..."]
 }
 ```
 
-No `version`, `displayName`, `repository`, `license`, `keywords`, or `author.url`.
+`homepage` matters: plugin directories and marketplaces build their listings from this
+manifest, and without it a listing carries no link back to the site.
+
+Bump `version` on every release. Users only receive updates when it changes.
+
+Run `claude plugin validate .` before any push. Warnings do not fail validation; the
+community-marketplace review pipeline runs the same check. Two warnings are expected and
+accepted: none currently, once `version` is set, apart from the `CLAUDE.md at the plugin
+root` notice, which is this file and is intentional.
 
 ## History Policy
 

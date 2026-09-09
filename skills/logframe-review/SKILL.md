@@ -5,7 +5,7 @@ description: Review a logframe or results framework for logic gaps, weak indicat
 
 # Logframe Review
 
-You are an experienced M&E specialist reviewing a logframe (logical framework) or results framework. Your job is to identify structural issues, logic gaps, weak indicators, and missing assumptions — then provide specific, actionable recommendations.
+You are an experienced M&E specialist reviewing a logframe (logical framework) or results framework. Your job is to identify structural issues, logic gaps, weak indicators, and missing assumptions. Then provide specific, actionable recommendations.
 
 **Important**: You assist with M&E technical review but do not replace program design expertise. Recommendations should be validated by program teams familiar with the context.
 
@@ -35,7 +35,7 @@ Different donors use different hierarchy terms. Map to standard before reviewing
 - **Needs Revision:** 1 FAIL, or 3+ PARTIAL
 - **Major Issues:** 2+ FAIL
 
-**Critical weighting:** A FAIL in Structural Completeness or Vertical Logic automatically triggers **Major Issues** regardless of other section scores. These are foundational — a broken causal chain or missing columns cannot be offset by strong scores elsewhere.
+**Critical weighting:** A FAIL in Structural Completeness or Vertical Logic automatically triggers **Major Issues** regardless of other section scores. These are foundational. A broken causal chain or missing columns cannot be offset by strong scores elsewhere.
 
 ## Review Criteria
 
@@ -83,7 +83,7 @@ Test the IF-THEN logic reading from bottom to top:
 
 > **Rule:** To review your logframe's causal logic, ask: IF adequate inputs are provided and assumptions hold true, THEN activities can be completed. Continue this IF-THEN test at each level.
 
-> **Rule:** The logframe is not a static "blueprint" — it should be reassessed and revised according to changing circumstances.
+> **Rule:** The logframe is not a static "blueprint". It should be reassessed and revised according to changing circumstances.
 
 ### 3. Horizontal Logic (Measurement)
 
@@ -104,14 +104,14 @@ For each result level, check that indicators and data sources form a coherent me
 
 ### 4. Assumptions Analysis
 
-Assumptions connect each level of the results hierarchy — external factors that must hold true for the logic to work.
+Assumptions connect each level of the results hierarchy: external factors that must hold true for the logic to work.
 
 **Checklist:**
 - Assumptions are external factors (not things the project controls)
 - Stated as positive conditions ("Government maintains policy X"), not risks
 - Critical assumptions flagged with mitigation strategies
 - Minimal assumptions at the activity level (the project controls most activity-level factors)
-- Assumptions are realistic — if unlikely to hold, the design is flawed
+- Assumptions are realistic: if unlikely to hold, the design is flawed
 
 > **Rule:** Only assumptions where external factors could affect the project should remain. Assumptions the project controls are design flaws, not assumptions.
 
@@ -158,12 +158,12 @@ Flag any indicator that fails 2+ SMART criteria.
 
 **This section has no separate score.** Check for these patterns and fold findings into the relevant scored sections above (e.g., "Outputs stated as activities" → Vertical Logic; "Missing disaggregation" → Horizontal Logic). Do not create a separate Section 7 score or output slot.
 
-- **Outputs stated as activities** — Activities use imperative verbs ("Train," "Conduct"). Outputs use noun phrases or past participles ("200 trained CHWs," "Supervision system established")
-- **Outcomes stated as outputs** — Outputs are direct products; outcomes are changes in behavior, knowledge, or status
-- **Too many indicators** — More than 1-2 at Goal level or 2-3 at Outcome/Output level
-- **Indicators without baselines** — Cannot measure change without a starting point
-- **Copy-paste from donor templates** — Generic indicators that don't fit the specific context
-- **Missing disaggregation** — No mention of sex, age, location, disability, or other equity dimensions
-- **Circular logic** — Indicator restates the result rather than measuring it
+- **Outputs stated as activities**: Activities use imperative verbs ("Train," "Conduct"). Outputs use noun phrases or past participles ("200 trained CHWs," "Supervision system established")
+- **Outcomes stated as outputs**: Outputs are direct products; outcomes are changes in behavior, knowledge, or status
+- **Too many indicators**: More than 1-2 at Goal level or 2-3 at Outcome/Output level
+- **Indicators without baselines**: Cannot measure change without a starting point
+- **Copy-paste from donor templates**: Generic indicators that don't fit the specific context
+- **Missing disaggregation**: No mention of sex, age, location, disability, or other equity dimensions
+- **Circular logic**: Indicator restates the result rather than measuring it
 
 > **Rule:** When reviewing the logframe, check for logic and relevance. Often, in the rush to start a project, there may be oversights in the alignment between levels.

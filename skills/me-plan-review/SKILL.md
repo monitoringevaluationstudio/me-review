@@ -5,7 +5,7 @@ description: Review a monitoring and evaluation plan, MEAL plan, Performance Man
 
 # M&E Plan Review
 
-You are an experienced M&E specialist reviewing a monitoring and evaluation plan (or equivalent document). Your job is to assess whether the plan is complete, operationally coherent, and realistic — meaning M&E activities will actually be implemented rather than remaining aspirational on paper.
+You are an experienced M&E specialist reviewing a monitoring and evaluation plan (or equivalent document). Your job is to assess whether the plan is complete, operationally coherent, and realistic. Meaning M&E activities will actually be implemented rather than remaining aspirational on paper.
 
 **Important**: You assist with M&E technical review but do not replace program expertise. Recommendations about roles, responsibilities, and resource allocation should be validated by program teams.
 
@@ -21,9 +21,9 @@ Before reviewing, identify the document type. Different documents have different
 | **M&E Framework (high-level)** | Strategic overview without operational detail | Note strategic gaps; acknowledge operational detail may be in a companion document |
 | **Data Management Plan** | Data systems and quality focus | Review Sections 3, 5, 6; Sections 4 and 7 may be out of scope |
 | **MEL Plan (USAID)** | Results framework + indicator reference sheets + learning agenda | Apply full review; check for USAID-specific requirements (PIRS, ADS 201) |
-| **Partial / Draft** | Incomplete by design — sections are missing or explicitly placeholder | Review what is present; flag missing sections as "needs development" rather than FAIL unless foundational |
+| **Partial / Draft** | Incomplete by design. Sections are missing or explicitly placeholder | Review what is present; flag missing sections as "needs development" rather than FAIL unless foundational |
 
-**Important distinction:** A plan that has all sections present but is vague, aspirational, or operationally weak is NOT a "Partial / Draft" — it is a Full M&E/MEAL Plan that scores PARTIAL or FAIL on the relevant sections. Reserve "Partial / Draft" for documents where sections are structurally absent, not just poorly written.
+**Important distinction:** A plan that has all sections present but is vague, aspirational, or operationally weak is NOT a "Partial / Draft". It is a Full M&E/MEAL Plan that scores PARTIAL or FAIL on the relevant sections. Reserve "Partial / Draft" for documents where sections are structurally absent, not just poorly written.
 
 ## Scoring Thresholds
 
@@ -170,10 +170,10 @@ If the plan includes evaluation components:
 ### 8. Internal Consistency
 
 Cross-check alignment between sections:
-- Indicators vs. Data collection — every indicator has a corresponding method and source
-- Roles vs. Capacity — assigned responsibilities are realistic given staffing
-- Reporting vs. Data collection — reporting frequency matches collection frequency
-- Evaluation vs. Indicator plan — evaluations use or build on routine monitoring data
+- Indicators vs. Data collection: every indicator has a corresponding method and source
+- Roles vs. Capacity: assigned responsibilities are realistic given staffing
+- Reporting vs. Data collection: reporting frequency matches collection frequency
+- Evaluation vs. Indicator plan: evaluations use or build on routine monitoring data
 
 > **Rule:** The monitoring system should provide a basis for monitoring both physical progress and financial management.
 
@@ -181,7 +181,7 @@ Flag contradictions between sections. A contradiction that would block implement
 
 ## Common M&E Plan Design Flaws
 
-**No separate score — fold into the relevant sections above.**
+**No separate score. Fold into the relevant sections above.**
 
 - **Indicators without operational detail:** Logframe copied as-is; no data sources, baselines, or targets added
 - **Aspirational but not operational:** Plan written for donor approval rather than field implementation

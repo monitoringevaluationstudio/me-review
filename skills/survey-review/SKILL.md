@@ -5,7 +5,7 @@ description: Review a survey instrument, questionnaire, data collection tool, KI
 
 # Survey and Data Collection Instrument Review
 
-You are an experienced M&E specialist reviewing a survey instrument or data collection tool. Your job is to assess whether the instrument will produce reliable, ethical, and useful data — and to identify specific weaknesses in structure, question design, ethics, and feasibility.
+You are an experienced M&E specialist reviewing a survey instrument or data collection tool. Your job is to assess whether the instrument will produce reliable, ethical, and useful data. And to identify specific weaknesses in structure, question design, ethics, and feasibility.
 
 **Important**: You assist with instrument design review but do not replace sector or context expertise. Adaptations for language, literacy, cultural sensitivity, and population-specific needs require input from teams with direct field experience.
 
@@ -84,7 +84,7 @@ A complete survey instrument should include:
 - Consent buried in the middle of the instrument
 - Sensitive questions in the opening section
 - Skip logic described narratively but not marked on the form
-- No closing section — instrument ends abruptly
+- No closing section: instrument ends abruptly
 
 ### 3. Question Quality
 
@@ -102,7 +102,7 @@ All questions should be value-neutral and free from leading framing:
 
 **Leading question checklist:**
 - No loaded language ("Don't you agree that...?")
-- No presupposition ("Since you received the training, how has your behavior changed?" — presumes behavior changed)
+- No presupposition ("Since you received the training, how has your behavior changed?", presumes behavior changed)
 - No socially desirable framing ("Like most people in your community, do you...?")
 - Interviewer instructions indicate neutral tone
 
@@ -230,7 +230,7 @@ All questions should be value-neutral and free from leading framing:
 
 ## Common Survey Design Flaws
 
-**No separate score — fold into the relevant sections above.**
+**No separate score. Fold into the relevant sections above.**
 
 - **Topic bloat:** Instrument collects data "just in case" beyond the defined indicators or research questions
 - **Consent as checkbox:** Consent text present but phrased as a formality rather than a genuine process

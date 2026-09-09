@@ -35,11 +35,11 @@ If no logframe is provided, prompt the user to supply one.
 1. Note which components are present and which are missing
 2. Apply all checks possible with available data
 3. For missing components, state what cannot be assessed
-4. Score each section — use PARTIAL or FAIL with "insufficient data" where needed
+4. Score each section. Use PARTIAL or FAIL with "insufficient data" where needed
 
 **Non-standard terminology:** Map donor-specific terms to standard hierarchy before reviewing (see skill methodology for mapping table).
 
-**Narrative description:** If the user describes a logframe rather than pasting it (e.g., "My logframe has 2 outcomes and 5 outputs..."), first reconstruct what you understand as a brief parsed table, then apply the review. Flag any sections where the description was silent as "not confirmed present" rather than "missing" — the actual document may contain it.
+**Narrative description:** If the user describes a logframe rather than pasting it (e.g., "My logframe has 2 outcomes and 5 outputs..."), first reconstruct what you understand as a brief parsed table, then apply the review. Flag any sections where the description was silent as "not confirmed present" rather than "missing". The actual document may contain it.
 
 **Version comparison:** If two versions are provided, compare section by section, noting improvements and remaining issues.
 
@@ -49,13 +49,13 @@ If no logframe is provided, prompt the user to supply one.
 
 Review in this sequence, scoring each section PASS / PARTIAL / FAIL:
 
-1. **Structural Completeness** — Four standard columns present? Results hierarchy complete? No levels skipped?
-2. **Vertical Logic** — IF-THEN causal chain plausible from activities to goal? Logic gaps?
-3. **Horizontal Logic** — Indicators measure stated results? Data sources named? Targets with baselines? Disaggregation?
-4. **Assumptions** — External factors only? Stated as positive conditions? Critical assumptions flagged?
-5. **Indicator Quality** — Rapid SMART check. Flag indicators failing 2+ criteria. (For full indicator assessment, refer to `/me-review:indicator-quality`)
-6. **Strategic Considerations** — Theory of Change alignment? Cross-cutting themes? Sustainability?
-7. **Common Design Flaws** — Outputs-as-activities? Too many indicators? Missing baselines? Circular logic? (Fold findings into relevant scored sections)
+1. **Structural Completeness**: Four standard columns present? Results hierarchy complete? No levels skipped?
+2. **Vertical Logic**: IF-THEN causal chain plausible from activities to goal? Logic gaps?
+3. **Horizontal Logic**: Indicators measure stated results? Data sources named? Targets with baselines? Disaggregation?
+4. **Assumptions**: External factors only? Stated as positive conditions? Critical assumptions flagged?
+5. **Indicator Quality**: Rapid SMART check. Flag indicators failing 2+ criteria. (For full indicator assessment, refer to `/me-review:indicator-quality`)
+6. **Strategic Considerations**: Theory of Change alignment? Cross-cutting themes? Sustainability?
+7. **Common Design Flaws**: Outputs-as-activities? Too many indicators? Missing baselines? Circular logic? (Fold findings into relevant scored sections)
 
 ### Step 4: Calculate Overall Rating
 
@@ -65,7 +65,7 @@ Based on section scores:
 - **Needs Revision:** 1 FAIL, or 3+ PARTIAL
 - **Major Issues:** 2+ FAIL
 
-**Note:** A FAIL in Structural Completeness or Vertical Logic automatically triggers Major Issues regardless of other scores. For EU logframes, do not penalize pre-conditions at the activity level — these are a convention (not a flaw) and should not trigger a FAIL in Assumptions.
+**Note:** A FAIL in Structural Completeness or Vertical Logic automatically triggers Major Issues regardless of other scores. For EU logframes, do not penalize pre-conditions at the activity level. These are a convention (not a flaw) and should not trigger a FAIL in Assumptions.
 
 ### Step 5: Generate Output
 
@@ -82,19 +82,19 @@ Produce the structured review with summary, section scores, priority recommendat
 [Findings]
 
 ### Vertical Logic: [PASS / PARTIAL / FAIL]
-[Findings — identify specific logic gaps]
+[Findings: identify specific logic gaps]
 
 ### Horizontal Logic: [PASS / PARTIAL / FAIL]
-[Findings — identify measurement weaknesses]
+[Findings: identify measurement weaknesses]
 
 ### Assumptions: [PASS / PARTIAL / FAIL]
-[Findings — identify missing or internal assumptions]
+[Findings: identify missing or internal assumptions]
 
 ### Indicator Quality: [PASS / PARTIAL / FAIL]
-[Findings — flag weak indicators]
+[Findings: flag weak indicators]
 
 ### Strategic Considerations: [PASS / PARTIAL / FAIL]
-[Findings — ToC alignment, cross-cutting themes, sustainability]
+[Findings: ToC alignment, cross-cutting themes, sustainability]
 
 ### Priority Recommendations (max 5)
 1. [Most critical issue]
@@ -112,6 +112,6 @@ Produce the structured review with summary, section scores, priority recommendat
 
 - Be specific. "Indicators need improvement" is not useful. "Output 2.1 indicator measures activities not outputs" is useful.
 - Distinguish between structural issues (wrong format) and substantive issues (wrong logic).
-- If the logframe is generally strong, say so — don't manufacture problems.
+- If the logframe is generally strong, say so. Don't manufacture problems.
 - If critical information is missing, flag it but don't assume the worst.
-- A logframe is iterative — frame recommendations as improvements, not failures.
+- A logframe is iterative. Frame recommendations as improvements, not failures.

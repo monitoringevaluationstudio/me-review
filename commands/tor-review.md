@@ -33,7 +33,7 @@ If no TOR is provided, prompt the user to supply one. If the user describes a pl
 
 Identify the document type before reviewing (see skill methodology for classification table). State the document type at the top of the review and calibrate expectations accordingly.
 
-For commissioning briefs or drafts, note which sections are present and which need development — don't simply fail every missing section.
+For commissioning briefs or drafts, note which sections are present and which need development. Don't simply fail every missing section.
 
 For narrative descriptions, flag any sections where the description is silent as "not confirmed present" rather than "missing."
 
@@ -41,16 +41,16 @@ For narrative descriptions, flag any sections where the description is silent as
 
 Review in this sequence, scoring each section PASS / PARTIAL / FAIL:
 
-1. **Completeness** — All 10 standard sections present?
-2. **Evaluation Questions** — Map to DAC criteria? Answerable? Specific? Not too many?
-3. **Methodology** — Methods match questions? Feasible? Budget supports approach?
-4. **Ethics** — IRB, consent, do-no-harm, data protection, vulnerable populations?
-5. **Team & LOE** — Qualifications specific? National expertise? LOE realistic?
-6. **Timeline** — Adequate time per phase? Review cycles defined?
-7. **Budget** — Ceiling provided? Inclusions/exclusions clear? Matches ambition?
-8. **Standards Alignment** — Aligned with OECD-DAC, UNEG, and any named donor's evaluation standards?
-9. **Practical Readiness** — Data sources listed? Prior evaluations referenced? Language needs? Dissemination plan?
-10. **Internal Consistency** — Cross-check: scope vs. budget, questions vs. methodology, timeline vs. deliverables, team vs. methodology, ethics vs. scope?
+1. **Completeness**: All 10 standard sections present?
+2. **Evaluation Questions**: Map to DAC criteria? Answerable? Specific? Not too many?
+3. **Methodology**: Methods match questions? Feasible? Budget supports approach?
+4. **Ethics**: IRB, consent, do-no-harm, data protection, vulnerable populations?
+5. **Team & LOE**: Qualifications specific? National expertise? LOE realistic?
+6. **Timeline**: Adequate time per phase? Review cycles defined?
+7. **Budget**: Ceiling provided? Inclusions/exclusions clear? Matches ambition?
+8. **Standards Alignment**: Aligned with OECD-DAC, UNEG, and any named donor's evaluation standards?
+9. **Practical Readiness**: Data sources listed? Prior evaluations referenced? Language needs? Dissemination plan?
+10. **Internal Consistency**: Cross-check: scope vs. budget, questions vs. methodology, timeline vs. deliverables, team vs. methodology, ethics vs. scope?
 
 ### Step 4: Classify Issues by Severity
 
@@ -102,13 +102,13 @@ When recommending changes, provide specific language the user can insert, not ju
 - [What the TOR does well]
 
 ### Critical Issues (Must Fix)
-1. [Issue — why it matters — specific fix]
+1. [Issue, why it matters, specific fix]
 
 ### Important Issues (Should Fix)
-1. [Issue — why it matters — specific fix]
+1. [Issue, why it matters, specific fix]
 
 ### Minor Improvements
-1. [Improvement — rationale]
+1. [Improvement: rationale]
 
 ### Detailed Findings
 [Section-by-section analysis with specific references to TOR text]
@@ -120,5 +120,5 @@ When recommending changes, provide specific language the user can insert, not ju
 - Calibrate expectations to the document type. A commissioning brief is intentionally incomplete.
 - Consider context: a $30K evaluation of a small project has different expectations than a $500K multi-country impact evaluation.
 - If the TOR is generally strong, say so. Not every TOR needs major revision.
-- **Post-hoc review:** If the evaluation is already underway or completed, reframe Critical/Important findings as lessons for future TOR development — not required fixes.
+- **Post-hoc review:** If the evaluation is already underway or completed, reframe Critical/Important findings as lessons for future TOR development. Not required fixes.
 - For program design review beyond the evaluation scope, use `/me-review:logframe-review`.
